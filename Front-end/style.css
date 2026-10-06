@@ -4,4 +4,32 @@ body {
     font-family: "Nunito", sans-serif;
     background-color: #FAF1E8;
     color: #3A3A3A;
+    padding: 3%;
+}
+
+.banner-carrossel{
+    width: 70%;
+    margin: auto;
+    border-radius: 6%;
+    overflow: auto;
+}
+.banner-carrossel img{
+    width: 100%;
+
+}
+.banner-slide {
+    display: none;
+}
+.banner-slide:first-child {
+    display: block;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+
+}
+.logo img {
+    width: 17%;
 }
