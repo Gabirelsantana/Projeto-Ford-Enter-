@@ -2,7 +2,7 @@
 
 body {
     font-family: "Nunito", sans-serif;
-    background-color: #FAF1E8;
+    background-color: #E8E3C8;
     color: #3A3A3A;
     padding: 3%;
 }
@@ -35,16 +35,19 @@ body {
 }
 
 .nav-links a{
-    font-size: xx-large;
-    padding: 10px 18px;
+    font-size:x-large;
+    padding: 16px 20px;
     align-self: center;
-    
+    text-decoration: none;
+    color: #3A3A3A;
+    background-color: #FFFFFF;    
 
 }
 
 .nav-links{
     display: flex;
     align-self: center;
+    
 }
 
 .logo img {
